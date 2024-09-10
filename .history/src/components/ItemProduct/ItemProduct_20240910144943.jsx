@@ -33,10 +33,9 @@ function ItemProduct({items, popapItem, currentTableData}) {
     )
   }
 
-  ItemProduct.propTypes = {
-    items: PropTypes.array,
-    popapItem: PropTypes.func,
-    currentTableData: PropTypes.array
+  MyComponent.propTypes = {
+    items: PropTypes.string,
+    age: PropTypes.number
   };
 
 export default ItemProduct

@@ -39,7 +39,7 @@ const ItemPoap = ({active, setPropsActive, popap}) => {
 ItemPoap.propTypes = {
   active: PropTypes.string,
   setPropsActive: PropTypes.func,
-  popap:PropTypes.object
+  popap:PropTypes.string
 };
 
 export default ItemPoap

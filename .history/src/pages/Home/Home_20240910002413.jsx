@@ -3,7 +3,10 @@ import React, { useState, useEffec, useMemo } from 'react'
 import categery_tort from './img/hazelnut layer cake w_ fig compote + (vegan) cream cheese frosting — dolly and oatmeal (1).jpg'
 import categery_motty from './img/Private Site.jpg'
 import Categories from 'components/Categories/Categories'
+
 import Calculation from 'pages/Desserts/Calculation'
+import Footer from 'Footer/Footer'
+
 import './main.css'
 import ItemPoap from 'components/Popap/ItemPoap'
 import { Link } from 'react-router-dom'

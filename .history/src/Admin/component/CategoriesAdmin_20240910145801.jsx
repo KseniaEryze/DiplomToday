@@ -12,8 +12,8 @@ function CategoriesAdmin({adminCategories}) {
   )
 }
 
-CategoriesAdmin.propTypes = {
-  adminCategories: PropTypes.object,
+MyComponent.propTypes = {
+  adminCategories: PropTypes.,
 };
 
 export default CategoriesAdmin

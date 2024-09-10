@@ -2,6 +2,8 @@ import React from 'react'
 import photo from '../About/img/photo.png'
 import Slider from 'components/Slider/Slider';
 import '../../components/Slider/main.css'
+
+import Footer from 'Footer/Footer';
 import './about.css'
 import Gallery from 'components/Galery/Gallery';
 function About() {

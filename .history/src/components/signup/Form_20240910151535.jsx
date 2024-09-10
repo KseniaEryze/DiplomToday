@@ -33,7 +33,7 @@ function Form({title, handleClick}) {
 
 Form.propTypes = {
   title: PropTypes.string,
-  handleClick: PropTypes.func
+  handleClick: PropTypes
 };
 
 export default Form

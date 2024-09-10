@@ -1,15 +1,14 @@
 import React, { useState } from 'react'
-import PropTypes from 'prop-types';
-
 
 function Form({title, handleClick}) {
   const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [pass, setPass] = useState('')
-
   return (
-
     <div className='authorization-form'>
+ 
+          
+   
     <label>Email</label>
       <input 
             type='email'
@@ -30,10 +29,5 @@ function Form({title, handleClick}) {
     </div>
   )
 }
-
-Form.propTypes = {
-  title: PropTypes.string,
-  handleClick: PropTypes.func
-};
 
 export default Form

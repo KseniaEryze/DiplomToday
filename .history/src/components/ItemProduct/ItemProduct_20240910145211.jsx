@@ -33,10 +33,10 @@ function ItemProduct({items, popapItem, currentTableData}) {
     )
   }
 
-  ItemProduct.propTypes = {
+  MyComponent.propTypes = {
     items: PropTypes.array,
-    popapItem: PropTypes.func,
-    currentTableData: PropTypes.array
+    popapItem: PropTypes.number,
+    currentTableData: PropTypes.number
   };
 
 export default ItemProduct

@@ -33,7 +33,7 @@ function ItemProduct({items, popapItem, currentTableData}) {
     )
   }
 
-  ItemProduct.propTypes = {
+  MyComponent.propTypes = {
     items: PropTypes.array,
     popapItem: PropTypes.func,
     currentTableData: PropTypes.array

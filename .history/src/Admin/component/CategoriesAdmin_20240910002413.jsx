@@ -1,7 +1,5 @@
 import React from 'react'
 import './styleCategories.css'
-import PropTypes from 'prop-types';
-
 
 function CategoriesAdmin({adminCategories}) {
 
@@ -11,9 +9,5 @@ function CategoriesAdmin({adminCategories}) {
     </div>
   )
 }
-
-CategoriesAdmin.propTypes = {
-  adminCategories: PropTypes.object,
-};
 
 export default CategoriesAdmin

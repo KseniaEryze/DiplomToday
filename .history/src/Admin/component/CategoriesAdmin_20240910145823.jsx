@@ -12,7 +12,7 @@ function CategoriesAdmin({adminCategories}) {
   )
 }
 
-CategoriesAdmin.propTypes = {
+MyComponent.propTypes = {
   adminCategories: PropTypes.object,
 };
 
