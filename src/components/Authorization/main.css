@@ -1,0 +1,24 @@
+.wrapper-center, .authorization-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.wrapper-center{
+    padding-top: 100px;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.authorization-form {
+   width: 35vw;
+}
+input{
+    
+    padding: 2vh 3vw;
+    margin: 5px;
+}
+button{
+	margin: 20px 10px;   
+    padding: 1vh 2vw;
+}
+

@@ -1,0 +1,124 @@
+header,
+main {
+  padding-left: 240px;
+}
+
+body {
+  background: white;
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+a{
+    text-decoration: none;
+}
+
+#credits li,
+#credits li a {
+  color: white;
+}
+
+#credits li a {
+  font-weight: bold;
+}
+
+.footer-copyright .container,
+.footer-copyright .container a {
+  color: #BCC2E2;
+}
+
+.fab-tip {
+  position: fixed;
+  right: 85px;
+  padding: 0px 0.5rem;
+  text-align: right;
+  background-color: #323232;
+  border-radius: 2px;
+  color: #FFF;
+  width: auto;
+}
+
+
+.main {
+  height: 400px;
+  padding: 10px;
+}
+
+.dropdown_button {
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  font-family: montserrat;
+  border: 1px solid #ffffff;
+}
+
+.courses {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.courses li {
+  
+  text-decoration: none;
+  display: block;
+  list-style: none;
+  background-color: rgb(47, 47, 47);
+  font-family: montserrat;
+  border: 1px solid white;
+}
+
+.courses li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 5px;
+}
+
+.courses li:hover {
+  background-color: #0979ad;
+  color: white;
+}
+
+.admin-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.admin-text_item{
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.admin-text_item input,label{
+  width: 80px;
+  margin: 5px;
+}
+.wrapper-adminPage{
+  display: flex;
+  margin: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.158);
+  padding-right: 50px;
+  
+  border-radius: 30px ;
+}
+
+
+.wrapper-adnin_categorisMenu{
+  display: flex;
+  justify-content: space-between ;
+}

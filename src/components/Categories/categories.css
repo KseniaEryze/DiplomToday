@@ -1,0 +1,25 @@
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+    margin: 20px;
+
+}
+
+.categoriesItem{
+     
+     border: 1px solid #777777;
+   
+     color: rgb(0, 0, 0);
+     border-radius: 15px;
+     margin: 5px;
+     padding: 8px 20px;
+}
+
+.categoriesItem:hover{
+    background-color: #d4d4d48a;
+    color: black;
+    transition: 1s;
+}

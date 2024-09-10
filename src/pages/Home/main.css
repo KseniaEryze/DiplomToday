@@ -1,0 +1,146 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin: 0;
+    padding: 20px 0;
+}
+section{
+    padding-top: 100px;
+}
+section, footer{
+    background: -webkit-linear-gradient(45deg, rgb(255, 218, 241), rgb(255, 255, 255), rgb(227, 239, 255));
+    background: -moz-linear-gradient(45deg, rgb(255, 218, 241), rgb(255, 255, 255), rgb(227, 239, 255));
+    background: linear-gradient(45deg, rgb(255, 218, 241), rgb(255, 255, 255), rgb(227, 239, 255));
+     
+    
+
+}
+button{
+    border: none;
+    background-color: #362361cc;
+    /* #928d3c */
+    color: white;
+    padding: 15px 30px;
+    margin-right: 10px;
+
+}
+.block_header{
+    background: url('./img/tort-muss-iagody-malina-rozy-desert.jpg') no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding-top: 0;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.block_header-info{
+    margin-left: 200px;
+
+}
+
+
+
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.category_list{
+    display: flex;
+    justify-content: center;
+    
+    margin: 0 100px;
+   
+}
+
+
+
+
+.advantages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+    background: -webkit-linear-gradient(45deg, rgb(255, 218, 241), rgb(255, 255, 255),rgb(255, 218, 241) rgb(227, 239, 255));
+    background: -moz-linear-gradient(45deg, rgb(255, 218, 241), rgb(255, 255, 255), rgb(227, 239, 255));
+    background: linear-gradient(120deg, rgb(255, 218, 241), rgb(255, 255, 255), rgb(227, 239, 255));
+    
+}
+.advantages .order{
+    background: url('./img/Без\ имени-1.png') no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 415px;
+   
+}
+.advantages p{
+     word-wrap:break-word
+}
+.order{
+    
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.description-list_point{
+    display: flex;
+    
+    align-items: center;
+}
+.description-list_point img{
+    margin-right: 25px;
+    width: 50PX;
+}
+
+
+
+.tabs_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.footerLogo{
+    width: 200px;
+}
+
+
+.block_header-info{
+    color: rgb(41, 41, 41);
+}
+@media (max-width: 800px) {
+.calculation{
+    display:none;
+    visibility: hidden;
+}
+.wrapper-home{
+    width: 100vw;
+}
+.menu{
+    display: none;
+}
+}
+
+@media(max-width: 500px){
+    .block_header-info{
+        margin-left: 15vw;
+    }
+   .block_header{
+        height: 400px;
+   }
+}

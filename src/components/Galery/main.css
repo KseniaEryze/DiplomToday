@@ -1,0 +1,24 @@
+.wrapper-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-container{
+    width: 60%;
+  
+}
+.slide-image{
+    width: 20vw;
+    height: 50vh;
+   
+}
+
+.react-slideshow-container .default-nav:last-of-type {
+    margin-left: -40px;
+  
+    background: url(../Slider/img/icons8-стрелка-100\ \(2\).png) no-repeat;
+}
+
+.react-slideshow-container .default-nav:first-of-type {
+    background: url(../Slider/img/icons8-стрелка-100\ \(3\).png);
+}

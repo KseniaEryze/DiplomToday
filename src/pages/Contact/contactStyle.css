@@ -1,0 +1,19 @@
+
+.wrapper-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+    width: 100vw;
+    height: 50vh;
+    
+}
+
+.wrapper-contact_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}

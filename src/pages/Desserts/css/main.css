@@ -1,0 +1,80 @@
+.wrapper-dessrts{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+    margin: 100px 50px;
+}
+
+.calculation{
+    margin-left: 40px;
+    width: 25%;
+}
+.calculation p,input,label{
+    font-size: 12px;
+}
+.calculation h4{
+    font-size: 13px;
+    margin: 5px;
+}
+
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 60%;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid #ff9f929f;
+    border-radius: 7px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+
+    padding: 10px;
+    margin: 10px;
+}
+
+.card p{
+    text-align: left;
+}
+
+.card img{
+ width: 150px;
+ 
+}
+
+.cake{
+    margin-top: 35px;
+    width: 130px;
+}
+.like{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    position: relative;
+   
+}
+
+.like img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 90px;
+    top: 20px;
+
+}
+.title{
+    text-align: left;
+}
+
+.card button{
+    border: 0.5px solid #ff9f929f;
+    border-radius: 5px;
+    background: none;
+    color: black;
+
+}
