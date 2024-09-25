@@ -1,0 +1,48 @@
+.cart {
+    /* Стили для контейнера корзины */
+    width: 500px;
+    margin: 100px auto;
+    border: 1px solid #ddd;
+    padding: 20px 10px;
+  }
+  
+  .cart h2 {
+    /* Стили для заголовка корзины */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    /* Стили для каждого элемента корзины */
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cart-item p {
+    /* Стили для информации об элементе корзины */
+    margin: 0;
+  }
+  
+  .cart-item button {
+    /* Стили для кнопки удаления */
+    background-color: #f44336; /* Красный цвет */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cart-item button:hover {
+    /* Стили при наведении курсора на кнопку */
+    background-color: #d32f2f; /* Более темный красный */
+  }
+  
+  .total-price {
+    /* Стили для общей стоимости */
+    text-align: right;
+    font-weight: bold;
+  }
+  
